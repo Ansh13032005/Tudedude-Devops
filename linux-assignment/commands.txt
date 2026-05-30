@@ -1,0 +1,35 @@
+mkdir test_dir
+
+cd test_dir
+
+touch example.txt
+
+mv example.txt renamed_example.txt
+
+cat /etc/passwd
+
+head -5 /etc/passwd
+
+tail -5 /etc/passwd
+
+grep "root" /etc/passwd
+
+cd ..
+
+zip -r test_dir.zip test_dir
+
+mkdir unzipped_dir
+
+unzip test_dir.zip -d unzipped_dir
+
+wget https://www.w3.org/TR/PNG/iso_8859-1.txt
+
+touch secure.txt
+
+chmod 444 secure.txt
+
+ls -l secure.txt
+
+export MY_VAR="Hello, Linux!"
+
+echo $MY_VAR
