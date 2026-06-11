@@ -9,7 +9,7 @@ collection = db['items']
 
 @app.route('/api')
 def api():
-    return jsonify({"message": "Hello from Flask!", "status": "ok"})
+    return jsonify({"message": "Hello from Tutedude_new branch!", "status": "updated"})
 
 if __name__ == '__main__':
     app.run(debug=True)
